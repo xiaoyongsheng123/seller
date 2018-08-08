@@ -1,6 +1,5 @@
 # mysell
-![商家页](https://github.com/xiaoyongsheng123/seller/blob/master/resource/%E5%A4%96%E5%8D%9601_%E5%95%86%E5%93%81%E9%A1%B5.jpg)
-> sell app
+<img src="https://github.com/xiaoyongsheng123/seller/blob/master/resource/%E5%A4%96%E5%8D%9601_%E5%95%86%E5%93%81%E9%A1%B5.jpg" width=311 height=554 />
 
 ## Build Setup
 
