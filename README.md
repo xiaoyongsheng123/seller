@@ -1,5 +1,7 @@
 # mysell
-
+<div>
+  <img src="https://github.com/xiaoyongsheng123/seller/tree/master/resource/外卖01_商品页.jpg">
+</div>
 > sell app
 
 ## Build Setup
