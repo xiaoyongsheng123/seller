@@ -1,5 +1,6 @@
 # mysell
-<p>这是一个基于vue脚手架工具vue-cli搭建和webpack初始化，并通过mock后台数据开发的一个外卖app商家页面项目</p>
+<p>这是一个基于vue.js2.0开发的外卖app商家模块，页面包括有商品列表页、商品详情页、商品评价页、商家详情页和商家优惠公告页。</p>
+<p>其中用到better-scroll来实现页面的滚动，贝塞尔插件实现小球的抛物线掉落效果，页面数据则是通过mock获得，代码检查用到的是eslint</p>
 ## Build Setup
 
 ``` bash
