@@ -1,5 +1,5 @@
 # mysell
-
+<p>这是一个基于vue脚手架工具vue-cli搭建和webpack初始化，并通过mock后台数据开发的一个外卖app商家页面项目</p>
 ## Build Setup
 
 ``` bash
