@@ -3,7 +3,7 @@
 	<div class="menu-wrapper" ref="menuWrapper">
 		<ul>
 			<li v-for="(item,index) in goods" class="menu-item" :class="{'current':currentIndex===index}" @click="selectMenu(index,$event)">
-				<span class="text" border-1px>
+				<span class="text border-1px">
 					<span v-show="item.type > 0" class="icon" :class="classMap[item.type]"></span>{{item.name}}
 				</span>
 			</li>
@@ -86,8 +86,6 @@
 			}
 		},
 		created() {
-			this.classMap = ['decrease','discount','special','invoice','guarantee']
-
 			this.$http.get('/api/goods').then((response) => {
 				response = response.body
 				if (response.errno === ERR_OK)  {
@@ -99,6 +97,7 @@
 					})
 				}
 			})
+			this.classMap = ['decrease','discount','special','invoice','guarantee']
 
 		},
 		methods: {
@@ -106,6 +105,7 @@
 				this.menuScroll = new BScroll(this.$refs.menuWrapper,{
 					click: true
 				})
+				console.log(this.menuScroll);
 				this.foodsScroll = new BScroll(this.$refs.foodsWrapper,{
 					click: true,
 					probeType: 3
