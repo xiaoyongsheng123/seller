@@ -49,6 +49,26 @@
   <img src="https://github.com/xiaoyongsheng123/seller/blob/master/img/07.png">
 </div>
 
+```
+—— App.vue组件
+  |—— header.vue 头部组件
+    |—— star.vue 星星组件
+  |—— goods.vue 商品列表组件
+    |—— cartcontrol.vue 加减按钮组件
+    |—— shopcart.vue 购物车组件
+    |—— food.vue 商品详情组件
+      |—— cartcontrol.vue
+      |—— ratingselect.vue 评价筛选组件
+      |—— split.vue 分隔块组件
+  |—— ratings.vue 商家评价页
+    |—— ratingselect.vue
+    |—— star.vue
+    |—— split.vue
+  |—— seller.vue
+    |—— star.vue
+    |—— split.vue
+```
+
 ## 要点总结
 
 ### CSS布局与技巧
