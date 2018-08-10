@@ -105,7 +105,6 @@
 				this.menuScroll = new BScroll(this.$refs.menuWrapper,{
 					click: true
 				})
-				console.log(this.menuScroll);
 				this.foodsScroll = new BScroll(this.$refs.foodsWrapper,{
 					click: true,
 					probeType: 3
@@ -127,6 +126,7 @@
 				}
 			},
 			selectMenu(index,event) {
+				// better-scroll可以监听到此事件，浏览器原生不能监听到，防止pc端出现两次点击
 				if(!event._constructed) {
 					return
 				}

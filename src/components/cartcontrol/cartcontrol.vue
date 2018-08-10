@@ -34,6 +34,7 @@ import Vue from 'vue'
 					this.food.count++
 				}
 				this.$emit('cartadd',event.target)
+				// console.log(event.target)
 			},
 			decreaseCart(event) {
 				if(!event._constructed) {

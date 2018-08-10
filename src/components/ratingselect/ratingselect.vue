@@ -60,7 +60,6 @@
 				if(!event._constructed) {
 					return
 				}
-				
 				this.$emit('select',type)
 			},
 			toggleContent(event) {
