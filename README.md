@@ -88,8 +88,11 @@
 - **评价筛选**：设置三个常量值分别代表三种状态(全部、满意、不满意)，通过点击事件将常量值由`$emit`传给父组件，通过获取当前评价的状态数据值，并设置条件判断当前点击的状态以显示相应的评价内容，改变相应按钮的样式
 - **店铺收藏**：定义两个函数分别用来获取和保存localStorage的数据(店家的id和value)，并通过相应的数据布尔值来切换和保存按钮的样式
 
-``` bash
 ## Build Setup
+
+``` bash
+# clone project
+git clone
 
 # install dependencies
 npm install
