@@ -89,6 +89,8 @@
 - **店铺收藏**：定义两个函数分别用来获取和保存localStorage的数据(店家的id和value)，并通过相应的数据布尔值来切换和保存按钮的样式
 
 ``` bash
+## Build Setup
+
 # install dependencies
 npm install
 
