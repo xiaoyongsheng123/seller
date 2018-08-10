@@ -44,6 +44,11 @@
 - `Bable`：自动将ES6转义成ES5语法
 - `eslint`：代码风格检查工具，规范代码的书写
 
+## 组件关系图
+<div>
+  <img src="https://github.com/xiaoyongsheng123/seller/blob/master/img/07.png">
+</div>
+
 ## 要点总结
 
 ### CSS布局与技巧
