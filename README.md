@@ -92,7 +92,7 @@
 
 ``` bash
 # clone project
-git clone
+git clone git@github.com:xiaoyongsheng123/seller.git
 
 # install dependencies
 npm install
