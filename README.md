@@ -15,12 +15,9 @@
 ## 项目截图
 
 <div align=center>
-  <img src="https://github.com/xiaoyongsheng123/seller/blob/master/img/01.png" width="30%">
-  <img src="https://github.com/xiaoyongsheng123/seller/blob/master/img/04.png" width="30%">
-  <img src="https://github.com/xiaoyongsheng123/seller/blob/master/img/06.png" width="30%">
-  <img src="https://github.com/xiaoyongsheng123/seller/blob/master/img/05.png" width="30%">
-  <img src="https://github.com/xiaoyongsheng123/seller/blob/master/img/02.png" width="30%">
-  <img src="https://github.com/xiaoyongsheng123/seller/blob/master/img/03.png" width="30%">
+  <img src="https://github.com/xiaoyongsheng123/seller/blob/master/img/01.gif" width="30%">
+  <img src="https://github.com/xiaoyongsheng123/seller/blob/master/img/02.gif" width="30%">
+  <img src="https://github.com/xiaoyongsheng123/seller/blob/master/img/03.gif" width="30%">
 </div>
 
 ## 主要技术栈
